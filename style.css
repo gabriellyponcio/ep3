@@ -1,5 +1,5 @@
 body{
-    background-color: pink ;
+    background-color: rgb(199, 199, 199) ;
     background-image: url(fundo.jpg);
     display: grid;
     grid-template-areas: 
@@ -25,7 +25,7 @@ footer{
 }
 
 header, aside, main, footer{
-    background-color: rgba(116, 93, 93, 0.7);
+    background-color: rgb(99, 114, 133);
 }
 
 .card{
@@ -33,6 +33,14 @@ header, aside, main, footer{
     width: 300px;
     margin: 10px;
     height: 500px;
+    border: black 2px solid;
+    width: 300px;
+    margin: 10px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .box_mae{
@@ -40,4 +48,9 @@ header, aside, main, footer{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
 }
