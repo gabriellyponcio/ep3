@@ -8,7 +8,7 @@ body{
         "rod rod rod";
     grid-gap: 5px;
     grid-template-columns: 20% auto auto;
-    grid-template-rows: auto 1000px auto;
+    grid-template-rows: auto 3000px auto;
 }
 
 header{
@@ -26,10 +26,11 @@ footer{
 
 header, aside, main, footer{
     background-color: rgb(99, 114, 133);
+    background-image: url(gato.png);
 }
 
 .card{
-    border: black 2px solid;
+    border: yellow 2px solid;
     width: 300px;
     margin: 10px;
     height: 500px;
@@ -41,6 +42,7 @@ header, aside, main, footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(190, 190, 190);
 }
 
 .box_mae{
@@ -53,4 +55,17 @@ header, aside, main, footer{
 .card img {
     width: 200px;
     height: 200px;
+}
+
+.card p{
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+}
+header img{
+    width: 150px;
+    height: auto;
 }
