@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(199, 199, 199) ;
+    background-color: rgb(206, 171, 171) ;
     background-image: url(fundo.jpg);
     display: grid;
     grid-template-areas: 
@@ -26,11 +26,11 @@ footer{
 
 header, aside, main, footer{
     background-color: rgb(99, 114, 133);
-    background-image: url(gato.png);
+    background-image: url(backdisco.jpg);
 }
 
 .card{
-    border: yellow 2px solid;
+    border: rgb(223, 223, 191) 2px solid;
     width: 300px;
     margin: 10px;
     height: 500px;
@@ -42,7 +42,7 @@ header, aside, main, footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(155, 155, 155);
 }
 
 .box_mae{
