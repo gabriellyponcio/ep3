@@ -26,7 +26,6 @@ footer{
 
 header, aside, main, footer{
     background-color: rgb(99, 114, 133);
-    background-image: url(backdisco.jpg);
 }
 
 .card{
@@ -34,7 +33,7 @@ header, aside, main, footer{
     width: 300px;
     margin: 10px;
     height: 500px;
-    border: black 2px solid;
+    border: rgb(155, 155, 155) 2px solid;
     width: 300px;
     margin: 10px;
     height: 500px;
@@ -64,8 +63,19 @@ header, aside, main, footer{
 .logo{
     position: absolute;
     top: 10px;
+
+    
 }
 header img{
-    width: 150px;
+    width: 300px;
     height: auto;
+}
+
+header h1{ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+
 }
